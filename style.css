@@ -1,0 +1,10 @@
+body {
+	background-color: #9ACD32;
+}
+
+section div{
+	width: 500px;
+    border: 1px solid black;
+    margin: 0 auto;
+    height: 200px;
+}
