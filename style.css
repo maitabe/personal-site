@@ -34,6 +34,24 @@ nav li a {
 	height: 700px;
 }
 
+#main-projects {
+	padding: 0 180px;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+}
+
+.column-inner {
+  padding: 20px;
+}
+
+#main-projects img {
+  width: 100%;
+  padding: 20px;
+}
+
 .small-box {
   width: 200px;
   height: 200px;
@@ -41,3 +59,15 @@ nav li a {
   margin: 10px;
   float: left;
 }
+
+.row:before {
+  display: table;
+  content: "";
+}
+
+ .row:after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
